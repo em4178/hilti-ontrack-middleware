@@ -1,15 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/tools.js", "use": "@vercel/node" }
-  ],
-  "rewrites": [
-    {
-      "source": "/tools",
-      "destination": "/api/tools.js"
-    }
+    { "src": "index.js", "use": "@vercel/node" }
   ]
 }
-
-
 

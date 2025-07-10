@@ -1,10 +1,6 @@
-const express = require('express');
-const app = express();
+const mockTools = require('./mock-data');
 
-const mockTools = require('../mock-data');
+module.exports = (req, res) => {
+  res.status(200).json(mockTools);
+};
 
-app.get('/api/tools', (req, res) => {
-  res.json(mockTools);
-});
-
-module.exports = app;

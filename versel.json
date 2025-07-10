@@ -1,15 +1,10 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/tools.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/tools.js", "use": "@vercel/node" }
   ],
   "routes": [
-    {
-      "src": "/tools",
-      "dest": "/api/tools.js"
-    }
+    { "src": "/tools", "dest": "api/tools.js" }
   ]
 }
+

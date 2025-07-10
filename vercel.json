@@ -3,9 +3,13 @@
   "builds": [
     { "src": "api/tools.js", "use": "@vercel/node" }
   ],
-  "routes": [
-    { "src": "/tools/?", "dest": "api/tools.js" }
+  "rewrites": [
+    {
+      "source": "/tools",
+      "destination": "/api/tools.js"
+    }
   ]
 }
+
 
 

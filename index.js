@@ -1,3 +1,6 @@
+app.get('/', (req, res) => {
+  res.send('Hilti OnTrack Middleware is running! Go to /tools to see the data.');
+});
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;

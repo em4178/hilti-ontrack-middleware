@@ -1,0 +1,5 @@
+module.exports = [
+  { id: 1, name: 'Cordless Drill', status: 'available' },
+  { id: 2, name: 'Measuring Station', status: 'in use' },
+  { id: 3, name: 'Laser Level', status: 'maintenance' }
+];

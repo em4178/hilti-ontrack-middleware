@@ -1,0 +1,12 @@
+{
+  "name": "hilti-ontrack-middleware",
+  "version": "1.0.0",
+  "description": "Middleware for Hilti ON!Track Unite API integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
